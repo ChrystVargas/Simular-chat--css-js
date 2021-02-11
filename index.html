@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Chat Whatsapp</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <section class="pantalla">
+        <div class="cabeza">
+
+            <div class="titulo">
+                <img class="imgGrupo" src="images/imagenGrupo3.jpg" alt="" width="40px" height="40px">
+                <p class="tituloGrupo">Nombre del grupo</p>
+            </div>  
+            
+            <nav>
+                <ul>
+                    <li class="menu"><a href="#">Opciones</a>
+                        <ul onmouseover="celularN = 0">    
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(1)">Nombre del grupo</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(2)">Numero telefonico</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(3)">Nombre del usuario</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>     
+        </div>
+        <div class="cuerpo">
+            <div class="chat">
+                
+            </div>
+            <form class="entradas">
+                <input type="text" class="mensaje" placeholder="Escribe un mensaje">
+                <button class="boton">Enviar</button>
+            </form>            
+        </div>
+    </section>
+
+    <section class="pantalla">
+        <div class="cabeza">
+            <div class="titulo">
+                <img class="imgGrupo" src="images/imagenGrupo3.jpg" alt="" width="40px" height="40px">
+                <p class="tituloGrupo">Nombre del grupo</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="menu"><a href="#">Opciones</a>
+                        <ul onmouseover="celularN = 1">    
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(1)">Nombre del grupo</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(2)">Numero telefonico</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(3)">Nombre del usuario</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>    
+        </div>
+        <div class="cuerpo">
+            <div class="chat">
+                
+            </div>
+            <form class="entradas">
+                <input type="text" class="mensaje" placeholder="Escribe un mensaje">
+                <button class="boton">Enviar</button>
+            </form>            
+        </div>
+    </section>
+
+    <section class="pantalla">
+        <div class="cabeza">
+
+            <div class="titulo">
+                <img class="imgGrupo" src="images/imagenGrupo3.jpg" alt="" width="40px" height="40px">
+                <p class="tituloGrupo">Nombre del grupo</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li class="menu"><a href="#">Opciones</a>
+                        <ul onmouseover="celularN = 2">    
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(1)">Nombre del grupo</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(2)">Numero telefonico</a></li>
+                            <li class="opcion"><a href="#" onclick="CambioInformacion(3)">Nombre del usuario</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cuerpo">
+            <div class="chat">
+
+            </div>
+            <form class="entradas">
+                <input type="text" class="mensaje" placeholder="Escribe un mensaje">
+                <button class="boton" >Enviar</button>
+            </form>            
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
